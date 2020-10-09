@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="378.0" prefWidth="615.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.OrderController">
+   <children>
+      <Label layoutX="14.0" layoutY="14.0" prefHeight="25.0" prefWidth="100.0" text="메뉴">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="315.0" layoutY="287.0" prefHeight="36.0" prefWidth="115.0" text="총 주문금액">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="lbprice" layoutX="443.0" layoutY="287.0" prefHeight="36.0" prefWidth="115.0" text="---------">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="571.0" layoutY="287.0" prefHeight="36.0" prefWidth="24.0" text="원">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Button fx:id="btorderok" layoutX="479.0" layoutY="329.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="115.0" text="주문하기" />
+      <TableView fx:id="tableviewmenu" layoutX="14.0" layoutY="44.0" prefHeight="220.0" prefWidth="219.0">
+        <columns>
+          <TableColumn fx:id="colitemname" prefWidth="123.0" text="상품명 " />
+            <TableColumn fx:id="colprice" prefWidth="95.0" text="가격 " />
+        </columns>
+      </TableView>
+      <Label layoutX="330.0" layoutY="14.0" prefHeight="25.0" prefWidth="100.0" text="장바구니">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <TableView fx:id="tablevieworder" layoutX="326.0" layoutY="44.0" prefHeight="220.0" prefWidth="211.0">
+         <columns>
+            <TableColumn fx:id="colitemname2" prefWidth="115.0" text="상품명 " />
+            <TableColumn fx:id="colprice2" prefWidth="95.0" text="가격" />
+         </columns>
+      </TableView>
+      <Button fx:id="btorderadd" layoutX="244.0" layoutY="240.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="46.0" text="추가" />
+      <Button fx:id="btorderdelete" layoutX="548.0" layoutY="240.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="46.0" text="삭제" />
+   </children>
+</AnchorPane>

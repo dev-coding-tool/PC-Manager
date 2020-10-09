@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="233.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ClientMainController">
+   <children>
+      <Label layoutX="30.0" layoutY="78.0" prefHeight="37.0" prefWidth="105.0" text="자리번호">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="30.0" layoutY="130.0" prefHeight="37.0" prefWidth="105.0" text="선불요금">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="30.0" layoutY="182.0" prefHeight="37.0" prefWidth="105.0" text="남은시간">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <Button fx:id="btorder" layoutX="429.0" layoutY="78.0" mnemonicParsing="false" onAction="#OrderAction" prefHeight="37.0" prefWidth="129.0" text="상품주문" />
+      <Button fx:id="btlogout" layoutX="429.0" layoutY="129.0" mnemonicParsing="false" onAction="#LogoutAction" prefHeight="37.0" prefWidth="129.0" text="사용종료" />
+      <Label fx:id="lbseatno" layoutX="154.0" layoutY="78.0" prefHeight="37.0" prefWidth="73.0">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="lbprepaidmoney" layoutX="154.0" layoutY="130.0" prefHeight="37.0" prefWidth="105.0">
+         <font>
+            <Font size="20.0" />
+         </font></Label>
+      <Label fx:id="lbavailabletime" layoutX="154.0" layoutY="182.0" prefHeight="37.0" prefWidth="105.0">
+         <font>
+            <Font size="20.0" />
+         </font></Label>
+      <Label alignment="CENTER_RIGHT" layoutX="30.0" layoutY="28.0" prefHeight="37.0" prefWidth="105.0" text="사용자">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <Label fx:id="lbid" layoutX="154.0" layoutY="28.0" prefHeight="37.0" prefWidth="73.0">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

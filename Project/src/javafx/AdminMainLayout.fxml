@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="591.0" prefWidth="915.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.AdminMainController">
+   <children>
+      <AnchorPane layoutX="18.0" layoutY="126.0" prefHeight="454.0" prefWidth="883.0">
+         <children>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#dadfe4" height="200.0" layoutX="12.0" layoutY="14.0" stroke="BLACK" strokeType="INSIDE" width="200.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#dadfe4" height="200.0" layoutX="232.0" layoutY="14.0" stroke="BLACK" strokeType="INSIDE" width="200.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#dadfe4" height="200.0" layoutX="452.0" layoutY="14.0" stroke="BLACK" strokeType="INSIDE" width="200.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#dadfe4" height="200.0" layoutX="672.0" layoutY="14.0" stroke="BLACK" strokeType="INSIDE" width="200.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#dadfe4" height="200.0" layoutX="12.0" layoutY="243.0" stroke="BLACK" strokeType="INSIDE" width="200.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#dadfe4" height="200.0" layoutX="232.0" layoutY="243.0" stroke="BLACK" strokeType="INSIDE" width="200.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#dadfe4" height="200.0" layoutX="452.0" layoutY="243.0" stroke="BLACK" strokeType="INSIDE" width="200.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#dadfe4" height="200.0" layoutX="672.0" layoutY="243.0" stroke="BLACK" strokeType="INSIDE" width="200.0" />
+            <Label layoutX="25.0" layoutY="171.0" prefHeight="33.0" prefWidth="64.0" text="남은시간">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="lbremaintime1" alignment="CENTER_RIGHT" layoutX="89.0" layoutY="171.0" prefHeight="33.0" prefWidth="110.0" text="00:00:00">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="lbseatno1" layoutX="25.0" layoutY="29.0" prefHeight="33.0" prefWidth="39.0" text="1">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Label>
+            <Label fx:id="lbseatinfo1" alignment="CENTER" layoutX="24.0" layoutY="92.0" prefHeight="33.0" prefWidth="174.0" text="빈좌석">
+               <font>
+                  <Font size="20.0" />
+               </font></Label>
+            <Label layoutX="246.0" layoutY="169.0" prefHeight="33.0" prefWidth="64.0" text="남은시간">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="lbremaintime2" alignment="CENTER_RIGHT" layoutX="310.0" layoutY="169.0" prefHeight="33.0" prefWidth="110.0" text="00:00:00">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="lbseatno2" layoutX="246.0" layoutY="27.0" prefHeight="33.0" prefWidth="39.0" text="2">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Label>
+            <Label fx:id="lbseatinfo2" alignment="CENTER" layoutX="245.0" layoutY="90.0" prefHeight="33.0" prefWidth="174.0" text="빈좌석">
+               <font>
+                  <Font size="20.0" />
+               </font></Label>
+            <Label layoutX="467.0" layoutY="172.0" prefHeight="33.0" prefWidth="64.0" text="남은시간">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="lbremaintime3" alignment="CENTER_RIGHT" layoutX="531.0" layoutY="172.0" prefHeight="33.0" prefWidth="110.0" text="00:00:00">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="lbseatno3" layoutX="467.0" layoutY="30.0" prefHeight="33.0" prefWidth="39.0" text="3">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Label>
+            <Label fx:id="lbseatinfo3" alignment="CENTER" layoutX="466.0" layoutY="93.0" prefHeight="33.0" prefWidth="174.0" text="빈좌석">
+               <font>
+                  <Font size="20.0" />
+               </font></Label>
+            <Label layoutX="25.0" layoutY="398.0" prefHeight="33.0" prefWidth="64.0" text="남은시간">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="lbremaintime5" alignment="CENTER_RIGHT" layoutX="89.0" layoutY="398.0" prefHeight="33.0" prefWidth="110.0" text="00:00:00">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="lbseatno5" layoutX="25.0" layoutY="256.0" prefHeight="33.0" prefWidth="39.0" text="5">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Label>
+            <Label fx:id="lbseatinfo5" alignment="CENTER" layoutX="24.0" layoutY="319.0" prefHeight="33.0" prefWidth="174.0" text="빈좌석">
+               <font>
+                  <Font size="20.0" />
+               </font></Label>
+            <Label layoutX="246.0" layoutY="398.0" prefHeight="33.0" prefWidth="64.0" text="남은시간">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="lbremaintime6" alignment="CENTER_RIGHT" layoutX="310.0" layoutY="398.0" prefHeight="33.0" prefWidth="110.0" text="00:00:00">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="lbseatno6" layoutX="246.0" layoutY="256.0" prefHeight="33.0" prefWidth="39.0" text="6">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Label>
+            <Label fx:id="lbseatinfo6" alignment="CENTER" layoutX="245.0" layoutY="319.0" prefHeight="33.0" prefWidth="174.0" text="빈좌석">
+               <font>
+                  <Font size="20.0" />
+               </font></Label>
+            <Label layoutX="466.0" layoutY="398.0" prefHeight="33.0" prefWidth="64.0" text="남은시간">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="lbremaintime7" alignment="CENTER_RIGHT" layoutX="530.0" layoutY="398.0" prefHeight="33.0" prefWidth="110.0" text="00:00:00">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="lbseatno7" layoutX="466.0" layoutY="256.0" prefHeight="33.0" prefWidth="39.0" text="7">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Label>
+            <Label fx:id="lbseatinfo7" alignment="CENTER" layoutX="465.0" layoutY="319.0" prefHeight="33.0" prefWidth="174.0" text="빈좌석">
+               <font>
+                  <Font size="20.0" />
+               </font></Label>
+            <Label layoutX="686.0" layoutY="169.0" prefHeight="33.0" prefWidth="64.0" text="남은시간">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="lbremaintime4" alignment="CENTER_RIGHT" layoutX="750.0" layoutY="169.0" prefHeight="33.0" prefWidth="110.0" text="00:00:00">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="lbseatno4" layoutX="686.0" layoutY="27.0" prefHeight="33.0" prefWidth="39.0" text="4">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Label>
+            <Label fx:id="lbseatinfo4" alignment="CENTER" layoutX="685.0" layoutY="90.0" prefHeight="33.0" prefWidth="174.0" text="빈좌석">
+               <font>
+                  <Font size="20.0" />
+               </font></Label>
+            <Label layoutX="686.0" layoutY="398.0" prefHeight="33.0" prefWidth="64.0" text="남은시간">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="lbremaintime8" alignment="CENTER_RIGHT" layoutX="750.0" layoutY="398.0" prefHeight="33.0" prefWidth="110.0" text="00:00:00">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="lbseatno8" layoutX="686.0" layoutY="256.0" prefHeight="33.0" prefWidth="39.0" text="8">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Label>
+            <Label fx:id="lbseatinfo8" alignment="CENTER" layoutX="685.0" layoutY="319.0" prefHeight="33.0" prefWidth="174.0" text="빈좌석">
+               <font>
+                  <Font size="20.0" />
+               </font></Label>
+         </children>
+      </AnchorPane>
+      <Label fx:id="lbcurrenttime" layoutX="18.0" layoutY="14.0" prefHeight="46.0" prefWidth="256.0" text="현재시간">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Button fx:id="btordercheck" layoutX="400.0" layoutY="50.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="110.0" text="주문확인" />
+      <Button fx:id="btmemberinfo" layoutX="520.0" layoutY="50.0" mnemonicParsing="false" onAction="#MemberInfoAction" prefHeight="60.0" prefWidth="110.0" text="회원정보" />
+      <Button fx:id="btstock" layoutX="640.0" layoutY="50.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="110.0" text="재고관리" />
+      <Button fx:id="btsales" layoutX="760.0" layoutY="50.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="110.0" text="매출" />
+      <Button fx:id="btlogout" layoutX="217.0" layoutY="85.0" mnemonicParsing="false" onAction="#LogoutAction" prefHeight="26.0" prefWidth="82.0" text="로그아웃" />
+      <Label fx:id="lbcurrentadminname" layoutX="101.0" layoutY="81.0" prefHeight="33.0" prefWidth="89.0">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="18.0" layoutY="81.0" prefHeight="33.0" prefWidth="75.0" text="관리자 :">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

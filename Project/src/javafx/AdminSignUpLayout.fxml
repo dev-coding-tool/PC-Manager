@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="509.0" prefWidth="414.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.AdminSignUpController">
+   <children>
+      <TextField fx:id="txname" layoutX="115.0" layoutY="102.0" prefHeight="30.0" prefWidth="180.0" />
+      <TextField fx:id="txid" layoutX="115.0" layoutY="151.0" prefHeight="30.0" prefWidth="180.0" />
+      <Button fx:id="btidcheck" layoutX="310.0" layoutY="150.0" mnemonicParsing="false" onAction="#IDcheckAction" prefHeight="30.0" prefWidth="70.0" text="중복확인" />
+      <PasswordField fx:id="txpw1" layoutX="114.0" layoutY="200.0" prefHeight="30.0" prefWidth="180.0" />
+      <PasswordField fx:id="txpw2" layoutX="114.0" layoutY="250.0" onKeyPressed="#pwcheckAction" prefHeight="30.0" prefWidth="180.0" />
+      <RadioButton fx:id="rbman" layoutX="115.0" layoutY="304.0" mnemonicParsing="false" prefHeight="23.0" prefWidth="70.0" selected="true" text=" 남자">
+         <font>
+            <Font size="14.0" />
+         </font>
+         <toggleGroup>
+            <ToggleGroup fx:id="genderGP" />
+         </toggleGroup>
+      </RadioButton>
+      <RadioButton fx:id="rbwoman" layoutX="210.0" layoutY="304.0" mnemonicParsing="false" prefHeight="23.0" prefWidth="70.0" text=" 여자" toggleGroup="$genderGP">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </RadioButton>
+      <TextField fx:id="txphone" layoutX="115.0" layoutY="350.0" prefHeight="30.0" prefWidth="180.0" />
+      <ComboBox fx:id="cbyear" layoutX="110.0" layoutY="404.0" prefHeight="23.0" prefWidth="79.0" promptText="----" />
+      <ComboBox fx:id="cbmonth" layoutX="212.0" layoutY="404.0" prefHeight="23.0" prefWidth="60.0" promptText="--" />
+      <ComboBox fx:id="cbday" layoutX="296.0" layoutY="404.0" prefHeight="23.0" prefWidth="60.0" promptText="--" />
+      <Button fx:id="btok" layoutX="100.0" layoutY="451.0" mnemonicParsing="false" onAction="#OkAction" prefHeight="38.0" prefWidth="87.0" text="확인" />
+      <Button fx:id="btcancel" layoutX="227.0" layoutY="451.0" mnemonicParsing="false" onAction="#CancelAction" prefHeight="38.0" prefWidth="87.0" text="취소" />
+      <Label alignment="CENTER" layoutX="67.0" layoutY="14.0" prefHeight="50.0" prefWidth="280.0" text="회원가입">
+         <font>
+            <Font size="40.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER_RIGHT" layoutX="30.0" layoutY="100.0" prefHeight="30.0" prefWidth="70.0" text="이름">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER_RIGHT" layoutX="30.0" layoutY="150.0" prefHeight="30.0" prefWidth="70.0" text="ID">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER_RIGHT" layoutX="30.0" layoutY="200.0" prefHeight="30.0" prefWidth="70.0" text="PW">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER_RIGHT" layoutX="30.0" layoutY="250.0" prefHeight="30.0" prefWidth="70.0" text="PW확인">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER_RIGHT" layoutX="30.0" layoutY="300.0" prefHeight="30.0" prefWidth="70.0" text="성별">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER_RIGHT" layoutX="32.0" layoutY="350.0" prefHeight="30.0" prefWidth="70.0" text="연락처">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER_RIGHT" layoutX="25.0" layoutY="400.0" prefHeight="30.0" prefWidth="79.0" text="생년월일">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="115.0" layoutY="380.0" prefHeight="15.0" prefWidth="156.0" text="' - ' 을 제외한 숫자 입력" />
+      <Label alignment="CENTER_RIGHT" layoutX="356.0" layoutY="400.0" prefHeight="30.0" prefWidth="21.0" text="일">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER_RIGHT" layoutX="270.0" layoutY="401.0" prefHeight="30.0" prefWidth="21.0" text="월">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER_RIGHT" layoutX="183.0" layoutY="401.0" prefHeight="30.0" prefWidth="21.0" text="년">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="lbpwcheck" layoutX="115.0" layoutY="280.0" prefHeight="23.0" prefWidth="209.0" />
+   </children>
+</AnchorPane>
